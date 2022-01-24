@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 60%;
+    margin: 0 auto;
+}
+.main-content{
+    display: flex;
+}
+.rectangle{
+    width: calc((100% / 2) - 40px);
+    height: 100px;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gray{
+    background-color: gray;
+}
+
+.green{
+    background-color: green;
+}
